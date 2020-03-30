@@ -1,7 +1,7 @@
 {
   "name": "example-create-react-app-express",
   "version": "1.0.0",
-  "private" : "true",
+  "private": "true",
   "scripts": {
     "client": "cd client && yarn start",
     "server": "nodemon server.js",
@@ -9,7 +9,10 @@
   },
   "dependencies": {
     "body-parser": "^1.18.3",
-    "express": "^4.16.4"
+    "chart.js": "^2.9.3",
+    "express": "^4.16.4",
+    "react-chartjs-2": "^2.9.0",
+    "react-router-dom": "^5.1.2"
   },
   "devDependencies": {
     "concurrently": "^4.0.1"
