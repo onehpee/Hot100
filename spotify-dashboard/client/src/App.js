@@ -2,6 +2,7 @@ import React from 'react';
 
 import './App.css';
 import Test from './Test';
+import Chart from './components/Chart';
 import { 
     BrowserRouter as Router,
     Switch,
@@ -18,7 +19,7 @@ function App() {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/api/hello">About</Link>
+            <Link to="/polar">Polar Area Chart</Link>
           </li>
         </ul>
 
@@ -27,6 +28,9 @@ function App() {
         <Switch>
           <Route exact path="/">
             <Test />
+          </Route>
+          <Route exact path="/polar">
+            <Chart/>
           </Route>
         </Switch>
       </div>
