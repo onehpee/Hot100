@@ -2,14 +2,14 @@ import React from 'react';
 
 
 
-function Info() {
+function Polar() {
   return (
     <div className="App">
-    <h1> Info </h1>
+    <h1> Polar </h1>
       
       </div>
     
   )
 }
 
-export default Info
+export default Polar

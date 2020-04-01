@@ -5,7 +5,7 @@ import React from 'react';
 function About() {
   return (
     <div className="App">
-    <h1> About </h1>
+    <h1> Insert Chart Here  </h1>
       
       </div>
     
