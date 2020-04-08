@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
 //import 'index.css'
-import Chart from './Chart.js';
-import Polar from './Polar';
-import Help from './Help';
-import Web from './Web';
-import Nav from './Nav';
+import Chart from './components/Chart.js';
+import Polar from './components/Polar';
+import Help from './components/Help';
+import Web from './components/Web';
+import Nav from './components/Nav';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 
