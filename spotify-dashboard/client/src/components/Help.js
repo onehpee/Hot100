@@ -2,14 +2,14 @@ import React from 'react';
 
 
 
-function About() {
+function Help() {
   return (
     <div className="App">
-    <h1> Insert Chart Here  </h1>
+    <h1> Help </h1>
       
       </div>
     
   )
 }
 
-export default About
+export default Help

@@ -2,14 +2,14 @@ import React from 'react';
 
 
 
-function About() {
+function Web() {
   return (
     <div className="App">
-    <h1> Insert Chart Here  </h1>
+    <h1> Web </h1>
       
       </div>
     
   )
 }
 
-export default About
+export default Web

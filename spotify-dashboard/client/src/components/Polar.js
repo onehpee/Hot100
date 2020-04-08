@@ -2,14 +2,14 @@ import React from 'react';
 
 
 
-function About() {
+function Polar() {
   return (
     <div className="App">
-    <h1> Insert Chart Here  </h1>
+    <h1> Polar </h1>
       
       </div>
     
   )
 }
 
-export default About
+export default Polar
