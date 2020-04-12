@@ -7,6 +7,9 @@
   pointer-events: none;
 }
 
+.apps {
+  background-color: rgba(192,192,192,0.3);
+}
 nav {
   display: flex;
   justify-content: space-around;
