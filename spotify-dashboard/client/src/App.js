@@ -5,14 +5,19 @@ import Chart from './components/Chart.js';
 import Polar from './components/Polar';
 import Help from './components/Help';
 import Nav from './components/Nav';
+import logo from './assets/logo.png';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 
 function App() {
   return (
     <Router>
-      <div className="App">
-        <h1> Discover Team Hachi </h1>
+      <div>
+      <header className="app-header">
+        <img className="logo" src={logo}/>
+        <code> Discover Team Hachi</code>               
+      </header>
+        
         <Nav/>
         <Route path="/" Component={App}/>
         <Route path="/Chart" component={Chart}/>
