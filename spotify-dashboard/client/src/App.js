@@ -4,7 +4,6 @@ import './App.css';
 import Chart from './components/Chart.js';
 import Polar from './components/Polar';
 import Help from './components/Help';
-import Web from './components/Web';
 import Nav from './components/Nav';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
@@ -19,7 +18,6 @@ function App() {
         <Route path="/Chart" component={Chart}/>
         <Route path="/Polar" component={Polar}/>
         <Route path="/help" component={Help}/>
-        <Route path="/web" component={Web}/>
       </div>
     </Router>
   )
