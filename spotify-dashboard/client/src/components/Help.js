@@ -37,8 +37,8 @@ export default class Help extends Component {
               <td>adedayouwensuyi@discover.com</td>
           </tr>
           <tr>
-              <td>Destinee Clinhscales</td>
-              <td>destineeclinhscales@discover.com</td>
+              <td>Destinee Clinkscales</td>
+              <td>destineeclinkscales@discover.com</td>
           </tr>
         </table>
       </div>
