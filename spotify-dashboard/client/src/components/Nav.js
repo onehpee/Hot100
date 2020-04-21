@@ -21,9 +21,6 @@ function Nav() {
                 <Link to="/Help">
                     <li><button>Help</button></li>
                 </Link>
-                <Link to="/web">
-                    <li><button>Web</button></li>
-                </Link>
             </ul>
       </nav> 
     )
