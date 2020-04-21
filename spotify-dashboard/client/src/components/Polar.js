@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Polar } from 'react-chartjs-2';
 
-class Chart extends Component {
+class polar extends Component {
     state = {
         datasets: [{
             data: [
@@ -45,4 +45,4 @@ class Chart extends Component {
     }
 }
 
-export default Chart;
+export default polar;
